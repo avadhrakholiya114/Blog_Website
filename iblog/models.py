@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Categpry(models.Model):
+class Category(models.Model):
     cat_id=models.AutoField(primary_key=True)
     title=models.CharField(max_length=100)
     desc=models.TextField()
@@ -18,5 +18,5 @@ class Post(models.Model):
     content=models.TextField()
     url=models.CharField(max_length=100)
     img=models.ImageField(upload_to='post/')
-    caatagory=models.ForeignKey(Categpry,on_delete=models.CASCADE)
+    caatagory=models.ForeignKey(Category,on_delete=models.CASCADE)
 
