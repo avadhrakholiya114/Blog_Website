@@ -21,4 +21,6 @@ class postAdmin(admin.ModelAdmin):
     # filter for filter data
     list_filter = ('Category',)
     list_per_page = 5
+    class Media:
+        js=('https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js','js/script.js',)
 admin.site.register(Post, postAdmin)
