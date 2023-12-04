@@ -6,5 +6,6 @@ urlpatterns = [
     path('', views.index),
 
     path('blog/<slug:id>', views.post),
+    path('cat/<slug:title>', views.cat),
 
 ]

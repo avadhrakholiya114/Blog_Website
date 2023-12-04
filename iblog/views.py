@@ -13,7 +13,7 @@ def index(request):
     # print(posts)
     data = {
         'posts': posts,
-        'cat':cat
+        'cat': cat
     }
     return render(request, 'home.html', data)
 
@@ -22,3 +22,14 @@ def post(request, id):
     post = Post.objects.get(post_id=id)
     print(post)
     return render(request, 'post.html', {'post': post})
+
+
+def cat(request, title):
+    c = Category.objects.get(title=title)
+    data = Post.objects.filter(Category__title=title)
+    print(data)
+    com = {
+        'data': data,
+        'c': c
+    }
+    return render(request, 'catagory.html', com)
