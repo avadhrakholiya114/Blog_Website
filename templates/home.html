@@ -1,3 +1,37 @@
 {%extends 'base.html'%}
 
 {%block title%}Welocme to blog{%endblock%}
+
+{%block data%}
+
+<div class="posts-container">
+    {% for p in posts %}
+    <div class="post">
+        <img src="/media/{{p.img}}" alt="" class="image">
+        <div class="date">
+            <i class="far fa-clock"></i>
+            <span>{{p.Category.add_date}}</span>
+        </div>
+        <h3 class="title">{{p.title}}</h3>
+        <!--        safe for html  resolve -->
+        <p class="text">{{p.content | truncatewords:50 | safe}}</p>
+        <a href='/blog/{{p.post_id}}'  class="btn btn-primary">Read More</a>
+
+        <div class="links">
+            <a href="#" class="user">
+                <i class="far fa-user"></i>
+                <span>by admin</span>
+            </a>
+            <a href="#" class="icon">
+                <i class="far fa-comment"></i>
+                <span>(45)</span>
+            </a>
+            <a href="#" class="icon">
+                <i class="far fa-share-square"></i>
+                <span>(29)</span>
+            </a>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}
