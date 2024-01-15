@@ -1,4 +1,4 @@
-![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/8be6f9e9-4249-477b-9bc2-88d790696d13)# Django Blogs Website
+# Django Blogs Website
 
 Welcome to the Django Blogs project, a website where users can read and explore blog posts categorized by topics.
 
@@ -77,10 +77,4 @@ Welcome to the Django Blogs project, a website where users can read and explore 
 
 8. Access the admin panel at `http://localhost:8000/admin/` to add blog posts and categories.
 
-## Screenshots
 
-
-```markdown
-![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/a8fdccf6-1281-4af7-ba40-e75df5fd090d)
-
-...
