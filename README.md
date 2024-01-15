@@ -24,10 +24,17 @@ Welcome to the Django Blogs project, a website where users can read and explore 
 
 1. Clone the repository:
 
+      ```bash
+   
+   mkdir bolg_Web
+    
+    ```
     ```bash
     git clone https://github.com/avadhrakholiya114/Blog_Website.git
-    cd blogs
+       cd Blog_Website
+  
     ```
+ 
 
 2. Create a virtual environment:
 
