@@ -82,9 +82,5 @@ Welcome to the Django Blogs project, a website where users can read and explore 
 
 ```markdown
 ![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/a8fdccf6-1281-4af7-ba40-e75df5fd090d)
-![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/b4bc9f73-19bb-4417-9340-1a0be8f7589f)
-![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/fb0df502-1a2f-4e9f-ac92-c67f3996e7de)
-![image](https://github.com/avadhrakholiya114/Blog_Website/assets/104836099/e363ada8-73e6-47e1-86bb-dbca38b37940)
-
 
 ...
